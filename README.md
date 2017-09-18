@@ -17,7 +17,7 @@ Application has two controllers:
           
           1.2 with json for multiple-resize optimization (yep, kraken io has for some reason different media types for these two)
           
-2) [another]() is for handling file upload requests to kraken:
+2) [another](https://github.com/joraclista/kraken-io-api-example/blob/master/src/main/java/com/github/joraclista/kraken/controller/KrakenUploadController.java) is for handling file upload requests to kraken:
 
           2.1 try http POST to ${YOUR_PROTOCOL_HOST_PORT}/kraken/file/upload/image/sync/optimize with 
           
